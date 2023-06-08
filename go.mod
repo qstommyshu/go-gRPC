@@ -1,4 +1,4 @@
-module gRPC
+module github.com/qstommyshu/go-gRPC
 
 go 1.20
 
