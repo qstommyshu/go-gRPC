@@ -1,4 +1,4 @@
-package client
+package main
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	pb " github.com/qstommyshu/go-gRPC/calculator"
+	pb "github.com/qstommyshu/go-gRPC/calculator"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

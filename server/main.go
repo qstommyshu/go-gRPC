@@ -1,4 +1,4 @@
-package server
+package main
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	pb " github.com/qstommyshu/go-gRPC/calculator"
+	pb "github.com/qstommyshu/go-gRPC/calculator"
 	"google.golang.org/grpc"
 )
 
